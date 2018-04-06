@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		5C1336DE2076BF5000CF6694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1336DD2076BF5000CF6694 /* Assets.xcassets */; };
 		5C1336E12076BF5000CF6694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1336DF2076BF5000CF6694 /* LaunchScreen.storyboard */; };
 		5CBCBF86207821D400ED5395 /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCBF85207821D400ED5395 /* IntExt.swift */; };
+		5CBCBF8920782B6100ED5395 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5CBCBF8820782B6100ED5395 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C1336E02076BF5000CF6694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C1336E22076BF5000CF6694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CBCBF85207821D400ED5395 /* IntExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
+		5CBCBF8820782B6100ED5395 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		5C1336CA2076BF4E00CF6694 = {
 			isa = PBXGroup;
 			children = (
+				5CBCBF8820782B6100ED5395 /* .gitignore */,
 				5CBCBF87207823A500ED5395 /* Extentions */,
 				5C1336D52076BF4E00CF6694 /* PickerViewApp */,
 				5C1336D42076BF4E00CF6694 /* Products */,
@@ -107,11 +110,12 @@
 				TargetAttributes = {
 					5C1336D22076BF4E00CF6694 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 5C1336CE2076BF4E00CF6694 /* Build configuration list for PBXProject "PickerViewApp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CBCBF8920782B6100ED5395 /* .gitignore in Resources */,
 				5C1336E12076BF5000CF6694 /* LaunchScreen.storyboard in Resources */,
 				5C1336DE2076BF5000CF6694 /* Assets.xcassets in Resources */,
 				5C1336DC2076BF4E00CF6694 /* Main.storyboard in Resources */,
@@ -282,8 +287,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -296,10 +300,7 @@
 				DEVELOPMENT_TEAM = 2EB4KC7497;
 				INFOPLIST_FILE = PickerViewApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.keenetic.eugem.PickerViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -315,10 +316,7 @@
 				DEVELOPMENT_TEAM = 2EB4KC7497;
 				INFOPLIST_FILE = PickerViewApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.keenetic.eugem.PickerViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
