@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         datePicker.datePickerMode = .date
         datePicker.addTarget(self, action: #selector(datePickerChange(sender:)), for: .valueChanged)
         self.datePickerChange(sender: datePicker)
+        timeLabel.text = "00:00:00"
         
         timePicker.delegate = self
         timePicker.dataSource = self

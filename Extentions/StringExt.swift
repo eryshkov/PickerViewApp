@@ -20,7 +20,7 @@ extension String{
                 }else{
                     return false
                 }
-            }
+            } else {return true}
         }
         return false
     }
