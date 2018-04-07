@@ -48,6 +48,7 @@ class SecondViewController: UIViewController {
         newLabel.textAlignment = .center
         newLabel.numberOfLines = 1
         newLabel.font = UIFont.systemFont(ofSize: 20, weight: .semibold)
+        newLabel.translatesAutoresizingMaskIntoConstraints = false
         return newLabel
     }()
     
