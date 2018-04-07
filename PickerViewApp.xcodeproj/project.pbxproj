@@ -14,6 +14,8 @@
 		5C1336E12076BF5000CF6694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1336DF2076BF5000CF6694 /* LaunchScreen.storyboard */; };
 		5CBCBF86207821D400ED5395 /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCBF85207821D400ED5395 /* IntExt.swift */; };
 		5CBCBF8920782B6100ED5395 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5CBCBF8820782B6100ED5395 /* .gitignore */; };
+		5CBCBF8B2078B89600ED5395 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCBF8A2078B89600ED5395 /* StringExt.swift */; };
+		5CBCBF8D2078BFB500ED5395 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBCBF8C2078BFB500ED5395 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5C1336E22076BF5000CF6694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CBCBF85207821D400ED5395 /* IntExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
 		5CBCBF8820782B6100ED5395 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5CBCBF8A2078B89600ED5395 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		5CBCBF8C2078BFB500ED5395 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			children = (
 				5C1336D62076BF4E00CF6694 /* AppDelegate.swift */,
 				5C1336D82076BF4E00CF6694 /* ViewController.swift */,
+				5CBCBF8C2078BFB500ED5395 /* SecondViewController.swift */,
 				5C1336DA2076BF4E00CF6694 /* Main.storyboard */,
 				5C1336DD2076BF5000CF6694 /* Assets.xcassets */,
 				5C1336DF2076BF5000CF6694 /* LaunchScreen.storyboard */,
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				5CBCBF85207821D400ED5395 /* IntExt.swift */,
+				5CBCBF8A2078B89600ED5395 /* StringExt.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -153,6 +159,8 @@
 			files = (
 				5C1336D92076BF4E00CF6694 /* ViewController.swift in Sources */,
 				5C1336D72076BF4E00CF6694 /* AppDelegate.swift in Sources */,
+				5CBCBF8B2078B89600ED5395 /* StringExt.swift in Sources */,
+				5CBCBF8D2078BFB500ED5395 /* SecondViewController.swift in Sources */,
 				5CBCBF86207821D400ED5395 /* IntExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
