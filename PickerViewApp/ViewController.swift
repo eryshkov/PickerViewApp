@@ -43,7 +43,9 @@ class ViewController: UIViewController {
             
             if let currentYear = currentYearInDatePicker, let previousYear = previousYearInDatePicker {
                 if currentYear != previousYear {
-                    print("Show next view")
+                    let secondVC = SecondViewController()
+                    secondVC.year = currentYear
+                    self.present(secondVC, animated: true, completion: nil)
                 }
             }
             self.previousYearInDatePicker = currentYearInDatePicker
